@@ -61,6 +61,7 @@ II. Proxy
 * https://github.com/CryptDB/cryptdb (More information included in their README.md file)
 * https://mshcruz.wordpress.com/2016/06/24/summary-cryptdb/
 * https://whitehatty.com/2012/09/30/cryptdb-howto-compile-on-ubuntu-linux-12-04/
+* https://github.com/yiwenshao/Practical-Cryptdb (also running on Ubuntu 16.04)
 
 **Limitations**
 
