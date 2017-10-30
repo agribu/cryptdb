@@ -51,3 +51,16 @@ II. Proxy
 
 [agribu/CryptDB_Docker](https://github.com/agribu/CryptDB_Docker)
 (forked from klevstad/CryptDB_Docker)
+
+**Resources**
+
+* https://css.csail.mit.edu/cryptdb/
+* https://github.com/cryptdb-org/cryptdb-wiki/wiki
+* https://m3ideas.org/2017/07/10/infor-grid-on-cryptdb/
+* https://github.com/CryptDB/cryptdb (More information included in their README.md file)
+* https://mshcruz.wordpress.com/2016/06/24/summary-cryptdb/
+* https://whitehatty.com/2012/09/30/cryptdb-howto-compile-on-ubuntu-linux-12-04/
+
+**Limitations**
+
+This version of CryptDB is only single principal.
