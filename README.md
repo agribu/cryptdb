@@ -34,7 +34,8 @@ To run cryptdb:
 ```
 II. Proxy
     A) To Start: 
-         > /path/to/cryptdb/bins/proxy-bin/bin/mysql-proxy         \
+         > export EDBDIR=/path/to/cryptdb
+         > $EDBDIR/bins/proxy-bin/bin/mysql-proxy         \
                      --plugins=proxy --event-threads=4             \
                      --max-open-files=1024                         \
                      --proxy-lua-script=$EDBDIR/mysqlproxy/wrapper.lua \
