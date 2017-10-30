@@ -111,7 +111,7 @@ def fn(cdb_path, in_make_v=nil, in_gcc_v=nil)
 
     mp_shell.>("./autogen.sh")
     mp_shell.>("./configure --enable-maintainer-mode --with-lua=lua5.1 --prefix=\"#{proxy_install_path}\"")
-    mp_shell.>("make -j8")
+    mp_shell.>("make")
     mp_shell.>("make install")
     mp_shell.>("rm -rf #{proxy_path}")
 
@@ -152,7 +152,7 @@ def fn(cdb_path, in_make_v=nil, in_gcc_v=nil)
 
     mysql_shell = ShellDoer.new(mysql_build_path)
     mysql_shell.>("cmake -DWITH_EMBEDDED_SERVER=on -DENABLE_DTRACE=off ..")
-    mysql_shell.>("make -j8")
+    mysql_shell.>("make")
 
     #############################
     #          cryptdb
